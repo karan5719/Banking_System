@@ -28,22 +28,22 @@ A comprehensive banking management system with admin and customer interfaces bui
 
 1. Clone the repository:
    bash
-   git clone https://github.com/your-username/banking-management-system.git
+   https://github.com/karan5719/Banking_System/tree/main
    
 
-2. Set up MySQL database:
+3. Set up MySQL database:
    bash
-   mysql -u root -p < database/banking_system.sql
+   mysql -u root -p < banking_system.sql
    
 
-3. Install dependencies:
+4. Install dependencies:
    bash
    pip install -r requirements.txt
    
 
-4. Run the application:
+5. Run the application:
    bash
-   python src/banking_app.py
+   python banking_app.py
    
 
 ## Configuration
