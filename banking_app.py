@@ -44,8 +44,8 @@ class BankingSystem:
             self.connection = mysql.connector.connect(
                 host="localhost",
                 user="root",
-                password="bharath123",  # Replace with your MySQL password
-                database="banking_system"
+                password="",  # Replace with your MySQL password
+                database="", # Replace wuth your MYSQL DATABASE
             )
             if self.connection.is_connected():
                 print("Connected to MySQL database")
